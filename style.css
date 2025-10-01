@@ -1,14 +1,16 @@
-html{
+*{
+  box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-  margin: 1.2rem;
+  margin:0;
+  height: 100%;
   background: #161A22;
-  background: radial-gradient(circle,rgba(22, 26, 34, 1) 0%, rgba(21, 26, 34, 1) 50%, rgba(22, 26, 34, 1) 100%);
 }
 
 nav{
+  margin: 1.24rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -229,4 +231,5 @@ body.light-mode .card-design{
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
+
 }

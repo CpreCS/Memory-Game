@@ -25,7 +25,6 @@ lightMode.addEventListener('click',() => {
 
   if(document.body.classList.contains('light-mode')){
     lightMode.innerHTML = 'Dark Mode';
-    navLogo.src = 'svg/nav-logo.svg';
   } else{
     lightMode.innerHTML = 'Light Mode';
   }
@@ -168,3 +167,4 @@ document.querySelector(".reset-btn").addEventListener("click", buildBoard);
 
 
 buildBoard();
+

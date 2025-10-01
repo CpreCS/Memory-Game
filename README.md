@@ -6,7 +6,7 @@ The motivation for building this was to practice creating a full, interactive ap
 
 Getting Started / How to Play
 You can play the game directly here:  
- (https://CpreCS.github.io/memory-game/)  
+ (https://CpreCS.github.io/Memory-Game/)  
 
 If you want to run it locally:  
 1. Clone the repository.  
